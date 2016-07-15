@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    {% include 'page.header.html' %}
+    
+    {% if site.title %}<title>{% if title %}{{ title }} – {% endif %}{{ site.title }}{% if not title and site.subtitle %} – {{ site.subtitle }}{% endif %}</title>{% endif %}
+</head>
+
+<body>
+    <div id="container">
+        <div id="sidebar">
+            <h1 id="title"><a href="{{ get_url() }}">{{ site.title }}</a></h1>
+            {% if site.subtitle %}<h2 id="subtitle">{{ site.subtitle }}</h2>{% endif %}
+            
+            <ul id="nav">
+                <li><a href="{{ get_url() }}">Blog</a></li>
+                <li><a href="{{ get_url('archives/') }}">Archives</a></li>
+                <li><a href="{{ get_url('feed.xml') }}">Feed</a></li>
+            </ul>
+            
+            <p>I am currently a Music Education student at Southern Utah University with interests in the Open-Source community and desktop customization. Welcome to my website!</p>
+            <p>You can follow me on <a href="https://plus.google.com/u/0/+AustinClark1">Google+</a> and <a href="https://twitter.com/_AustinClark_">Twitter</a>.</p>
+            <p> <a href="http://artex-files.github.io/Startpage">~/Startpage</a><p>
+            <!-- <p><code>/_templates/layout.html#L22-24</code></p>  comment-out if bug is foun-->
+            
+            <div id="footer">
+                <p>{% if site.author %}© {{ none|date('%Y') }} {{ site.author }} – {% endif %}powered by <a href="http://mynt.uhnomoli.com/">mynt</a></p>
+            </div>
+        </div>
+        
+        {% block breadcrumbs %}{% endblock %}
+        
+        <div id="content">
+            {% block content %}{% endblock %}
+        </div>
+    </div>
+</body>
+</html>
