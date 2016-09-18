@@ -1,20 +1,16 @@
 ---
 layout: post.html
 title: Volunteering at Cedar Middle School 
-tags: [Music, Education, EDGE, Project, Volunteering]
-external: 
-    author: Austin Clark
-    link:
-    source: 
+tags: ['Music', 'Education', 'EDGE', 'Project', 'Volunteering']
 ---
 
-![EDGE Banner]
-(https://a.pomf.cat/zshqme.png)
 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;As a student at Southern Utah University(SUU), I had the opportunity to participate in a process known as experiential learning.  We were urged to explore the world off campus, and to apply oneself in the community. Throughout my time at SUU, I prepared, proposed, and completed my __EDGE__ project. The EDGE project is designed to give students a way to show how their skills can help and give back to other individuals.   
+
+<hr width="75%">
 _Disclaimer:_     
  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Due to various laws and rules of the Iron County School District, I was unable to take photographs of myself with the students and unable to retrieve media consent. I have published a video with no recognizable faces in the links below. Names in journal entries have been changed to protect anonymity. As I take student privacy very seriously, if this is found to be unlawful in any way, please contact me via [e-mail][email].   
 <hr width="75%">
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;As a student at Southern Utah University(SUU), I had the opportunity to participate in a process known as experiential learning.  We were urged to explore the world off campus, and to apply oneself in the community. Throughout my time at SUU, I prepared, proposed, and completed my __EDGE__ project. The EDGE project is designed to give students a way to show how their skills can help and give back to other individuals.   
 
 Some links that might be of interest while reading: 
 

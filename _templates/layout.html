@@ -4,36 +4,27 @@
 <head>
     {% include 'page.header.html' %}
     
-    {% if site.title %}<title>{% if title %}{{ title }} – {% endif %}{{ site.title }}{% if not title and site.subtitle %} – {{ site.subtitle }}{% endif %}</title>{% endif %}
+    <title>{% if title %}{{ title }} – {% endif %}{{ site.title }}{% if not title %} – {{ site.subtitle }}{% endif %}</title>
 </head>
 
 <body>
-    <div id="container">
-        <div id="sidebar">
-            <h1 id="title"><a href="{{ get_url() }}">{{ site.title }}</a></h1>
-            {% if site.subtitle %}<h2 id="subtitle">{{ site.subtitle }}</h2>{% endif %}
-            
-            <ul id="nav">
-                <li><a href="{{ get_url() }}">Blog</a></li>
-                <li><a href="{{ get_url('archives/') }}">Archives</a></li>
-                <li><a href="{{ get_url('feed.xml') }}">Feed</a></li>
-            </ul>
-            
-            <p>I am currently a Music Education student at Southern Utah University with interests in the Open-Source community and desktop customization. Welcome to my website!</p>
-            <p>You can follow me on <a href="https://plus.google.com/u/0/+AustinClark1">Google+</a> and <a href="https://twitter.com/_AustinClark_">Twitter</a>.</p>
-            <p> <a href="http://artex-files.github.io/Startpage">~/Startpage</a><p>
-            <!-- <p><code>/_templates/layout.html#L22-24</code></p>  comment-out if bug is foun-->
-            
-            <div id="footer">
-                <p>{% if site.author %}© {{ none|date('%Y') }} {{ site.author }} – {% endif %}powered by <a href="http://mynt.uhnomoli.com/">mynt</a></p>
-            </div>
-        </div>
+    <div id="header">
+        <h1 id="title"><a href="{{ get_url() }}">{{ site.title }}</a></h1>
+        <h2 id="subtitle">{{ site.subtitle }}</h2>
         
-        {% block breadcrumbs %}{% endblock %}
-        
-        <div id="content">
-            {% block content %}{% endblock %}
+        <div id="nav">
+            <a href="{{ get_url() }}">words<span class="nav-title">my ramblings</span></a>
+            <a href="{{ get_url('code/') }}">projects<span class="nav-title">what I do</span></a>
         </div>
+    </div>
+    
+    <div id="content">
+        {% block content %}{% endblock %}
+    </div>
+    
+    <div id="footer">
+        <h1 id="footer-label">about</h1>
+        <p>My name is Austin Clark, for the most part I'm a music educator, and this is where I ramble and write about my professional life. This site is powered by a static site generator called <a href="http://mynt.uhnomoli.com/">mynt</a> written by <a href="https://github.com/Anomareh">Anomareh</a> and there's also a <a href="{{ get_url('feed.xml') }}">feed</a>. In my spare time, I code (including the backend of this website). If you want to get in touch, you can find me on my coding repository <a href="https://github.com/Artex-files">GitHub</a>, <a href="https://twitter.com/_austinclark_">Twitter</a>, and also through my preferred method of contact, <a href="mailto:Clarka94@gmail.com">email</a>.</p>
     </div>
 </body>
 </html>
