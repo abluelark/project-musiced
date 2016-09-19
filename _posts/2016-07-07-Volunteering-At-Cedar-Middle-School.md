@@ -14,14 +14,11 @@ _Disclaimer:_
 
 Some links that might be of interest while reading: 
 
-* [project proposal from fall 2015][project-proposal]
 * [me conducting at the spring combined concert 2016 _(see disclaimer)_][best-day]
 * [band teacher receives Huntsman award][huntsman-award]
 * [conducting the cedar high school band][cedar-high-conducting]
 * [newsletter/report][newsletter]
 * [press release ][press-release]
-* [multi-media presentation (coming soon!)][multi-media presentation]
-* [digital resume (coming soon!)][resume]
 
 ## Part 1. About the Project.
 
